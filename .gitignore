@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/.idea
+/.vscode
+/server/node_modules
+/server/yarn.lock
+
+# production
+/dist
+
+# misc
+.DS_Store
+
+
+# unit test
+coverage
+junit.xml
+
+# 自动生成配置文件
+.autoCreateConfigs
