@@ -103,5 +103,5 @@ theme: pure
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: "git"
-  repository: "https://github.com/leledaxia/leledaxia.github.io.git"
+  repository: "git@github.com:leledaxia/leledaxia.github.io.git"
   branch: "master"
